@@ -9,8 +9,8 @@ body{
 }
 
 .breakpoint{
-    position: relative;
     display: flex;
+
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -20,7 +20,7 @@ background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%
 }
 
 .breakpoint p{
-    position: absolute;
+
     top: 2%;
 margin: 0;
 color: #000;
@@ -75,7 +75,10 @@ line-height: 27.3px; /* 160.588% */
     width: 100vw;
     height: 94vh;
     background-color: #000000;
-    position: relative;
+  display: flex;
+   gap: 50px;
+    flex-direction: column;
+
 }
 
 .powerful_banner h1, p{
@@ -83,9 +86,8 @@ line-height: 27.3px; /* 160.588% */
 }
 
 .powerful_banner h1{
-    position: absolute;
-    top: 25%;
-    left: 23%;
+padding-top: 180px;
+
     color: #FFF;
 text-align: center;
 font-family: Helvetica;
@@ -104,7 +106,7 @@ font-size: 21px;
 font-style: normal;
 font-weight: 400;
 line-height: 27.3px; /* 130% */
-position: absolute;
+
 bottom: 33%;
 left: 29%;
 }
@@ -113,7 +115,7 @@ left: 29%;
 
 .buttons_powerful{
 display: flex;
-position: absolute;
+
 justify-content: center;
 bottom: 18%;
 left: 34%;
@@ -577,22 +579,31 @@ padding: 10px;
 }
 
 
+.anybodies_block{
+display: flex;
+flex-direction: row;
+    justify-content: center;
+ padding-top: 180px;
+
+}
+
+
 .anybodies_pic{
-    position: absolute;
-    width: 32vw;
-    display: flex;
-    top: 40%;
-    right: 52%;
+
+  height: 400px;
+
+
 
 }
 
 .anybodies_text{
-    position: absolute;
+
+    position: relative;
 background-color: #232323;
 right: 6.5%;
 top: 40%;
-width: 32vw;
-height: 47.5vh;
+width: 550px;
+
 border-bottom-right-radius: 10px;
 border-top-right-radius: 10px;
 border-top-left-radius: none;
@@ -676,6 +687,7 @@ top: 4%;
 }
 
 
+
 .picture_container{
     display: flex;
 }
@@ -689,7 +701,7 @@ top: 4%;
     left: 0%;
   background-color:   #19161C;
   border-radius: 8px;
- 
+
 }
 
 .image__1{
@@ -715,7 +727,7 @@ top: 4%;
     height: 23vh;
     right: 34%;
     top: 17%;
-  
+
 }
 
 .solana_statistics_2{
